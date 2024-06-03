@@ -1,0 +1,179 @@
+{
+    "Personal_Information": {
+        "Name": "Swastik Banerjee",
+        "Email": "swastikbanerjee2001@gmail.com",
+        "Phone_Number": "+91-9330412996",
+        "Address": null,
+        "LinkedIn_URL": "www.linkedin.com/in/swastikbanerjee"
+    },
+    "Summary": null,
+    "Work_Experience": [
+        {
+            "Company_Name": "Hackveda",
+            "Mode_of_Work": "Remote",
+            "Job_Role": "ML Engineer",
+            "Job_Type": "Intern",
+            "Start_Date": "07/2023",
+            "End_Date": "12/2023"
+        },
+        {
+            "Company_Name": "SkillVertex",
+            "Mode_of_Work": "Remote",
+            "Job_Role": "Cloud Engineer",
+            "Job_Type": "Intern",
+            "Start_Date": "07/2022",
+            "End_Date": "08/2022"
+        }
+    ],
+    "Projects": [
+        {
+            "Name_of_Project": "PREACH Application \u2013 Multimodal Inputs (Video/Audio/Text) to PowerPoint Presentations",
+            "Description": "Utilized LLMs, NLP, and CV techniques to convert video/audio/text inputs into PowerPoint presentations, offering a 30% more interactive and engaging presentation experience.\n- Won 1st place and 350$ prize money at Intel oneAPI Hackathon 2024.",
+            "Start_Date": null,
+            "End_Date": null
+        },
+        {
+            "Name_of_Project": "mysticML Library Development \u2013 Python Library for Automated Data Preprocessing",
+            "Description": "Converts raw data into preprocessed data according to the dataset automatically, accelerating the execution time of the ML pipeline by 30%.\n- Demonstrated a 40% improvement in overall efficiency over existing preprocessing methods, paving the way for more accurate and streamlined data analysis.",
+            "Start_Date": null,
+            "End_Date": null
+        },
+        {
+            "Name_of_Project": "Traffic Flow Optimization Solution \u2013 Dynamic Approach to Optimizing Traffic at Crossroads",
+            "Description": "Engineered a dynamic approach using YOLO v8 to alleviate traffic congestion at crossroads, based on one year of intensive research, resulting in a 15% increase in traffic flow efficiency.\n- Presented a 35% reduction in average wait times using a custom objective function and novel optimization strategy, providing a scalable solution for urban traffic management.",
+            "Start_Date": null,
+            "End_Date": null
+        },
+        {
+            "Name_of_Project": "Early Disease Detection & Monitoring Application \u2013 Serving the rural population",
+            "Description": "Part of the National Health Mission, Govt. of India's funded initiative to create an application for disease monitoring in rural areas.\n- Expected to yield an 80% increase in early detection rates for diabetes and hypertension diseases, addressing healthcare disparities in underserved communities.",
+            "Start_Date": null,
+            "End_Date": null
+        },
+        {
+            "Name_of_Project": "Nobel Laureate Classification \u2013 Efficient Methodology for Image Classification",
+            "Description": "Proposed an efficient methodology for image classification at the IEEE flagship conference, offering a 40% time-efficient solution.\n- Demonstrated a 70% reduction in computational resources while maintaining high accuracy levels, setting a new standard for image analysis algorithms.",
+            "Start_Date": null,
+            "End_Date": null
+        },
+        {
+            "Name_of_Project": "Scan2Read Application \u2013 Enhancing Accessibility for the Visually Impaired",
+            "Description": "Developed a Kivi application leveraging OCR and text-to-speech techniques exclusively for blind people to make them aware of their surroundings, providing 15% more effective awareness while navigating. \n- Won 2nd place and 5000 INR prize money at Shells SJC Hackathon 2024.",
+            "Start_Date": null,
+            "End_Date": null
+        }
+    ],
+    "Achievements": [
+        {
+            "Heading": "IEEE RAICS 2024 Presenter",
+            "Description": "Novel efficient methodology for Image Classification was presented by my team in this flagship conference on 17th of May at MACE, Kerala.",
+            "Start_Date": "05/2024",
+            "End_Date": null
+        },
+        {
+            "Heading": "Intel oneAPI Hackathon 2024 Winner",
+            "Description": "Secured victory among 190 competitors, engineering a groundbreaking application, reached 90% efficiency with it, earned a $350 prize, and nationwide recognition.",
+            "Start_Date": "03/2024",
+            "End_Date": null
+        },
+        {
+            "Heading": "Shells KJC Hackathon 2024 Runner-up",
+            "Description": "Achieved 92% accuracy with Scan2read, awarded INR 5000; idea acquired by sponsoring company.",
+            "Start_Date": "02/2024",
+            "End_Date": null
+        },
+        {
+            "Heading": "Achieved Perfect GPA",
+            "Description": "Earned perfect GPA of 4.0 in the first trimester of 2023-2024 academic year, constituting of Mathematics, Statistics, AI Basics, Machine Learning and Databases.",
+            "Start_Date": "07/2023",
+            "End_Date": "10/2023"
+        }
+    ],
+    "Education": [
+        {
+            "Degree/Course": "Master of Science - Artificial Intelligence & Machine Learning",
+            "Field_of_Study": "Artificial Intelligence & Machine Learning",
+            "Institute": "Christ (Deemed to be University), Bengaluru, India",
+            "Marks/Percentage/GPA": "3.97 / 4 (GPA)",
+            "Start_Date": null,
+            "End_Date": "12/2024"
+        },
+        {
+            "Degree/Course": "Bachelor of Science - Computer Science",
+            "Field_of_Study": "Computer Science",
+            "Institute": "St. Xavier\u2019s College (Autonomous), Kolkata, India",
+            "Marks/Percentage/GPA": "82.4%",
+            "Start_Date": null,
+            "End_Date": "2023"
+        },
+        {
+            "Degree/Course": "Class 12",
+            "Field_of_Study": null,
+            "Institute": "Patha Bhavan High School, Kolkata, India",
+            "Marks/Percentage/GPA": "94.4%",
+            "Start_Date": null,
+            "End_Date": "2020"
+        },
+        {
+            "Degree/Course": "Class 10",
+            "Field_of_Study": null,
+            "Institute": "Patha Bhavan High School, Kolkata, India",
+            "Marks/Percentage/GPA": "91%",
+            "Start_Date": null,
+            "End_Date": "2018"
+        }
+    ],
+    "Certifications": [],
+    "Skills": [
+        "Python",
+        "Computer Vision",
+        "NLP",
+        "GenAI",
+        "LLM",
+        "RAG",
+        "Hugging Face",
+        "Transformers",
+        "AWS",
+        "SQL",
+        "Tableau",
+        "Flask",
+        "ETL",
+        "Java",
+        "C",
+        "C++",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Exceptional Attention to Detail",
+        "Strong Leadership",
+        "Time Management",
+        "High Emotional Quotient",
+        "Effective Communicator",
+        "Networking Skills"
+    ],
+    "Extracurricular_Activities": [
+        "Lead Vocalist in College Music Band",
+        "Avid Trekker",
+        "Save Soil Movement Social Volunteer",
+        "Cricket Player (Club Level)",
+        "Enthusiastic Cricket Analyst",
+        "Class Representative",
+        "Coding/Debugging Event Head at College Tech Fest",
+        "Competitive Coder"
+    ],
+    "Language_Competencies": [
+        {
+            "Language": "English",
+            "Proficiency": "Professional proficiency"
+        },
+        {
+            "Language": "Bengali",
+            "Proficiency": "Native proficiency"
+        },
+        {
+            "Language": "Hindi",
+            "Proficiency": "Working proficiency"
+        }
+    ]
+}
