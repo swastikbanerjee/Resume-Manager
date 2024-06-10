@@ -1,23 +1,47 @@
-document.getElementById('resumeForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    var formData = new FormData(this);
-    var jsonData = {};
-    formData.forEach(function(value, key) {
-        jsonData[key] = value;
+document.addEventListener("DOMContentLoaded", function() {
+    const uploadBox = document.getElementById("upload-box");
+    const fileInput = document.getElementById("file-input");
+    const fileNameDisplay = document.getElementById("file-name-display");
+    const uploadBtn = document.getElementById("uploadBtn");
+
+    uploadBtn.classList.add("faded");
+
+    uploadBox.addEventListener("dragover", (event) => {
+        event.preventDefault();
+        uploadBox.classList.add("dragover");
     });
 
-    fetch('/submit', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(jsonData)
-    })
-    .then(response => response.json())
-    .then(data => {
-        var responseMessage = document.getElementById('responseMessage');
-        responseMessage.style.display = 'block';
-        responseMessage.textContent = data.message;
-    })
-    .catch(error => console.error('Error:', error));
+    uploadBox.addEventListener("dragleave", () => {
+        uploadBox.classList.remove("dragover");
+    });
+
+    uploadBox.addEventListener("drop", (event) => {
+        event.preventDefault();
+        uploadBox.classList.remove("dragover");
+        const files = event.dataTransfer.files;
+        fileInput.files = files;
+        displayFileName(files);
+        uploadBtn.classList.remove("faded");
+    });
+
+    uploadBox.addEventListener("click", () => {
+        fileInput.click();
+    });
+
+    fileInput.addEventListener("change", () => {
+        const files = fileInput.files;
+        displayFileName(files);
+        uploadBtn.classList.remove("faded");
+    });
+
+    uploadBtn.addEventListener("click", function() {
+        uploadBtn.classList.add("faded");
+        processingGif.style.display = "inline";
+        uploadBtn.querySelector('span').textContent = " Processing";    
+    });
+
+    function displayFileName(files) {
+        const fileNames = Array.from(files).map(file => file.name).join(", ");
+        fileNameDisplay.textContent = fileNames || "No file chosen";
+    }
 });
